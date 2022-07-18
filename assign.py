@@ -21,10 +21,10 @@
  
 
 #  4.................
-str='my life my rules'
-str=str.replace('m','$')
-print('new version of string::')
-print(str)
+# str='my life my rules'
+# str=str.replace('m','$')
+# print('new version of string::')
+# print(str)
 
 # 5.............
 # str='abc'
@@ -121,6 +121,34 @@ print(str)
 # str2.sort()
 # print(',').join(str)
 
+# 15............
+# def add_tags(tag, word):
+# 	return "<%s>%s</%s>" % (tag, word, tag)
+# print(add_tags('i', 'khushi'))
+# print(add_tags('b', 'khushdeep'))
+
+# 16.................
+# test_str = 'khush play'
+  
+# # printing original string
+# print("The original string is : " + str(test_str))
+  
+# # initializing mid string
+# mid_str = "love to"
+  
+# # splitting string to list
+# temp = test_str.split()
+# mid_pos = len(temp) // 2
+  
+# # appending in mid
+# res = temp[:mid_pos] + [mid_str] + temp[mid_pos:]
+  
+# # conversion back
+# res = ' '.join(res)
+  
+# # printing result
+# print("Formulated String : " + str(res))
+
 
 #18Python function to get a string made of its first three characters of a specified string. If the length of the string is less than 3 then return the original string. 
 # a='python'
@@ -140,7 +168,7 @@ print(str)
 #     print(a)    
 
 #21Python function to convert a given string to all uppercase if it contains at least 2 uppercase characters in the first 4 characters\
-# a='Prabh'
+# a='khush'
 # num=0
 # for x in a[:4]:
 #     if(x.upper()==x):
@@ -157,5 +185,5 @@ print(str)
 # print(a)
 
 #23Python program to check whether a string starts with specified characters.
-# a='Prabh'
+# a='khush'
 # print(a.startswith('Pr'))
