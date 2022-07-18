@@ -143,7 +143,8 @@
 # Area = l * b
 # print("Area of a Rectangle is: %.2f" %Area)
 
-# reverse a list
+# reverse a list...........
+
 # lst = [10, 11, 12, 13, 14, 15]
 # lst.reverse()
 # print("Using reverse() ", lst)
