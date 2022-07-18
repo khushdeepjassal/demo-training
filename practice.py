@@ -76,4 +76,20 @@
 # print(s)
 # print(type(s))
 
+def disp(a=10,b=40,c=56):
+    d=a+b+c
+    print(a,b,c,d)
+disp()
 
+# def sum():
+#     print('a+b')
+# sum()
+
+# def outerfunction(text):
+#     text=text
+#     def innerfunction():
+#         print(text)
+#         innerfunction()
+
+# if_name_=='_main__':
+# outerfunction('hey')       

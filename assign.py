@@ -21,10 +21,10 @@
  
 
 #  4.................
-# str='my life my rules'
-# str=str.replace('m','$')
-# print('new version of string::')
-# print(str)
+str='my life my rules'
+str=str.replace('m','$')
+print('new version of string::')
+print(str)
 
 # 5.............
 # str='abc'
