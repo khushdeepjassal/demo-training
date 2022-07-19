@@ -132,7 +132,8 @@
 #   else:  
 #     print ("Given Year is not a leap Year")  
 # # Taking an input year from user  
-# Year = int(input("Enter the number: "))  
+# Year = int
+# (input("Enter the number: "))  
 # # Printing result  
 # CheckLeap(Year)  
 
