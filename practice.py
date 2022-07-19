@@ -125,9 +125,25 @@
 #     f2()
 # f1()
             
-class demo:
-    def display(self):
-        print('10+20')   
-ob=demo()
-ob.display()         
+# class demo:
+#     def display(self):
+#         print('10+20')   
+# ob=demo()
+# ob.display()         
   
+# class A:
+#    def __init__(self):
+#     print('hello')
+#     def f1(self):
+#         print('h')
+#         ob=A()
+#         ob.f1()
+
+class A:
+    def __str__(self):
+        return'hello'
+        ob=A()
+        print(ob)
+
+
+

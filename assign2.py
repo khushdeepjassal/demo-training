@@ -150,4 +150,57 @@
 # print("Using reversed() ", list(reversed(lst)))
 
 
+# find  sum of all elements in list......................
 
+
+# numlist = ['2','4','2','5','7','9','23','4','5']
+# # Calculate sum of list
+# numsum=0
+# for i in numlist:
+#     numsum+=int(i)
+# print('Sum of List: ',numsum)
+
+
+# average, max, min  of list elements......................
+
+ 
+# print("Maximum of 4,12,43.3,19 and 100 is : ",end="")
+#print (max( 4,12,43.3,19,100 ) )
+# print("Minimum of 4,12,43.3,19 and 100 is : ",end="")
+# print (min( 4,12,43.3,19,100 ) )
+
+
+
+#13..................
+# def grouping_dictionary(l):
+#     result = {}
+#     for k, v in l:
+#          result.setdefault(k, []).append(v)
+#     return result
+# colors = [('yellow', 1), ('blue', 2), ('yellow', 3), ('blue', 4), ('red', 1)]
+# print("Original list:")
+# print(colors)
+# print("\nGrouping a sequence of key-value pairs into a dictionary of lists:")
+# print(grouping_dictionary(colors))
+
+
+#  check if a set is a subset of another set.
+# 
+# test_list = [9, 4, 5, 8, 10]
+# sub_list = [10, 5]
+ 
+# # printing original lists
+# print("Original list : " + str(test_list))
+# print("Original sub list : " + str(sub_list))
+ 
+# # using issubset() to
+# # check subset of list
+# flag = 0
+# if(set(sub_list).issubset(set(test_list))):
+#     flag = 1
+ 
+# # printing result
+# if (flag):
+#     print("Yes, list is subset of other.")
+# else:
+#     print("No, list is not subset of other.")
