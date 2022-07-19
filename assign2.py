@@ -184,7 +184,7 @@
 # print(grouping_dictionary(colors))
 
 
-#  check if a set is a subset of another set.
+#  check if a set is a subset of another set...................
 # 
 # test_list = [9, 4, 5, 8, 10]
 # sub_list = [10, 5]
@@ -204,3 +204,20 @@
 #     print("Yes, list is subset of other.")
 # else:
 #     print("No, list is not subset of other.")
+
+# create a symmetric difference and set difference..............................
+
+# set_A = {"ram", "rahim", "ajay", "rishav", "aakash"}
+# set_B = {"aakash", "ajay", "shyam", "ram", "ravi"}
+# print(set_A ^ set_B)
+
+# remove an empty tuple(s) from a list of tuples......................
+
+# def Remove(tuples):
+#     tuples = [t for t in tuples if t]
+#     return tuples
+ 
+# # Driver Code
+# tuples = [(), ('ram','15','8'), (), ('laxman', 'sita'),
+#           ('krishna', 'akbar', '45'), ('',''),()]
+# print(Remove(tuples))
