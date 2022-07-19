@@ -77,10 +77,7 @@
        
 # # Else if the input number is less than or equal to 1
 # else:
-#    print(num,"is not a prime number")
-
-
-# fiboonic............
+#    print(num,"is not a prime number")# fiboonic............
 
 # def Fibonacci(n):
    
@@ -151,3 +148,6 @@
 # print("Using reverse() ", lst)
  
 # print("Using reversed() ", list(reversed(lst)))
+
+
+
