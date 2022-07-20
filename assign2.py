@@ -138,7 +138,7 @@
 
 # l = float(input('Enter the length of a Rectangle: '))
 # b = float(input('Enter the breadth of a Rectangle: '))
-# Area = l * b
+# Area = l * b111
 # print("Area of a Rectangle is: %.2f" %Area)
 
 # reverse a list...........

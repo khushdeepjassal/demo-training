@@ -145,13 +145,18 @@
 # ob=A()
 # print(ob)
 
-import practice 
-practice.f1()
-def f2(): 
-    print('f2')
-f2()
+# import practice 
+# practice.f1()
+# def f2(): 
+#     print('f2')
+# f2()
 
+# from datetime import datetime
 
+# today = datetime.now() 
+# print("Today's date:", today)
+
+import
 
 
 
