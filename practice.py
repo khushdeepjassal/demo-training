@@ -133,17 +133,268 @@
   
 # class A:
 #    def __init__(self):
-#     print('hello')
-#     def f1(self):
+#         print('hello')
+#    def f1(self):
 #         print('h')
-#         ob=A()
-#         ob.f1()
+# ob=A()
+# ob.f1()
 
-class A:
-    def __str__(self):
-        return'hello'
-        ob=A()
-        print(ob)
+# class A:
+#     def __str__(self):
+#         return'hello'
+# ob=A()
+# print(ob)
+
+import practice 
+practice.f1()
+def f2(): 
+    print('f2')
+f2()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
