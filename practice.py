@@ -157,6 +157,19 @@
 # print("Today's date:", today)
 
 
+# exception...............
+# from abc import abc,abstractmethod
+# class student(abc):
+#     @abstractmethod
+#     def m1(self):
+#     pass
+# class A(student):
+#     def m1(self):
+#         print()
+from tkinter import *
+ab =Tk()
+ab.mainloop()
+
 
 
 

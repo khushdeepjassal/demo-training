@@ -97,6 +97,37 @@
 # outer()
 # print(s)
 
+# 7..................
+# eid,ename,esal=1,'aaa',10000.56
+# def emp(eid,ename,esal):
+#     globals()['eid']=eid
+#     globals()['ename']=ename
+# globals()['esal']=esal
+# print(eid,ename,esal)
+# def disp():
+#  	print(eid,ename,esal)
+ 
+# emp(111,'ratan',10000.45)
+# disp()
+# print(eid,ename,esal)
+
+
+# 8......................
+# a,b=100,200
+# class MyClass(): 
+#     a,b=10,20
+# def add(self,a,b):
+#   print(a+b)
+# print(globals()['a']+globals()['b']) 
+# print(self.a+self.b)
+# def mul(self,a,b):
+#  print(a*b)
+# print(globals()['a']+globals()['b'])
+# print(self.a*self.b)
+# c = MyClass()
+# c.add(3,3)
+# c.mul(4,4)
+
 
 
 
