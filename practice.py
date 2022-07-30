@@ -166,13 +166,52 @@
 # class A(student):
 #     def m1(self):
 #         print()
-from tkinter import *
-ab =Tk()
-ab.mainloop()
 
 
+# from tkinter import *
+# ab =Tk()
+# ab.mainloop()
 
+# from threading import*
+# class A(Thread):
+#     def run(self):
+#         for x in range(5):
+#             print(x)
+# ob=A()
+# ob.start()
+# class A():
+#     def run(self):
+#         for x in range(5):
+#             print(x) 
+# ob=A()
+# t1=Thread(target=ob.run) 
+# t1.start()                      
 
+# from threading import*
+# import time
+# def f1(n):
+#     for x in range(n):
+#         time.sleep(4)
+#         print(current_thread().name,x)
+# t1=Thread(target=f1,args=[5],name='thread1')
+# t1.start()
+# def f2():
+#     for x in range(6,11):
+#         time.sleep(3)
+#         print(current_thread().name,x)
+#     t2=Thread(target=f2,name='thread2')
+#     t2.start()
+#     t1.join()
+#     t2.join()
+#     print(current_thread().name)
+
+# from threading import*
+# class A(Thread):
+#     def run(self):
+#         for x in range(5):
+#             print(x)
+# ob=A()
+# ob.start()
 
 
 
