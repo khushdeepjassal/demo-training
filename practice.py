@@ -213,32 +213,117 @@
 # ob=A()
 # ob.start()
 
+# s='bhwn'
+# substrings=[]
+# for x in range(len(s)):
+#     for y in range(len(s)-x):
+#         s.append(s[y:x+y+1])
+# print(s)        
+
+# for even in range(422,623):
+#    if even % 2 == 0:
+#     print(even)
 
 
 
 
+# p = [ [1,1],[3,4],[4,9] ]
+# q = [ [1,6,3],[4,5,5] ]
+
+
+# result = [ [0,0,0],[0,0,0],[0,0,0] ]
+
+# multiplication = []
+
+# for i in range( len(p) ):
+   
+#    for j in range(len(q[0])):
+       
+#        for k in range(len(q)):
+#            result[i][j] += p[i][k] * q[k][j]
+  
+
+# for r in result:
+#    print(r)
+
+# pattern = int(input("Enter the side of the square  : "))
+
+# for p in range(5):
+#     for q in range(5):
+#         if(p == 0 or p == 5 - 1 or q == 0 or q == 5 - 1):
+#             print('*', end = ' ')
+#         else:
+#             print(' ', end = ' ')
+#     print()
+
+# n=int(input("Enter n: ")) 
+# d={} 
+# for i in range(n): 
+   
+#     name=input("Enter sub  name: ") 
+
+#     marks=int(input("Enter sub marks: ")) 
+#     d[name]=[name,marks] 
+# for k in d: 
+#     if(d[k][1]>75): 
+#         print(d[k][0]) 
+
+# d = {}
+# for i in range(1,4):
+#     print('student',i)
+#     sub='math'
+#     d[sub] = {}
+#     marks = input("Enter marks : ")
+#     d[sub]["marks"] = marks
+#     sub='eng'
+#     d[sub] = {}
+#     marks = input("Enter marks ")
+#     d[sub]["marks"] = marks
+#     sub='sci'
+#     d[sub] = {}
+#     marks = input("Enter marks  ")
+#     d[sub]["marks"] = marks
+#     print(d)
 
 
 
 
+# s='{1}, {0}, and {2}’
+
+# s.format(‘hello’, ‘Hi’, ‘goodday’)
+
+# sum(4,2,3)
+
+# sum([4,4,6])
+
+# def f(x):
+#     def f1(*args, **kwargs):
+#            print("StepGndec")
+#            return x(*args, **kwargs)
+#     return f1
 
 
+# class tester:
+#      def __init__(self, id):
+#              id = "230"
+#              self.id = str(id)
+# temp = tester(15)
+# print(temp.id)
 
 
+# class Dog:
+#      def walk(self):
+#                return "*walking*"
+ 
+#      def speak(self):
+#           return "Woof!"
+ 
+# class JackRussellTerrier(Dog):
+#       def speak(self):
+#          return "Arff!"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+#  bobo = JackRussellTerrier()
+#  bobo.walk()
 
 
 
