@@ -35,10 +35,14 @@ statement = tkinter.Label(root)
 # make_button.grid(row=6, column=0, columnspan=2)
 # image_view.grid(row=8, column=0, columnspan=2)
 # statement.grid(row=10, column=0, columnspan=2)
+
+
+
 heading.place(x=30,y=30)
 subtitle.place(x=35,y=100)
 data.place(x=35,y=150)
 make_button.place(x=35,y=180)
 image_view.place(x=35,y=250)
 statement.place(x=35,y=550)
+
 root.mainloop()
